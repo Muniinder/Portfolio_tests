@@ -1,0 +1,83 @@
+body { color:#555555;} 
+h4 {font-family: sans-serif; color:#555555; font-size:16px;}
+h3 {font-family: sans-serif; color:#555555;}
+p {font-family: sans-serif; color:#888888; font-size:14px;}
+a {font-family: sans-serif; color:#d15423; text-decoration:none;}
+canvas{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.main_heading{
+    text-align: center;
+    /* border: 1px solid blue; */
+    width: 100%;
+    min-height: 80px;
+    position: absolute;
+    margin: 15% auto 2% auto; 
+    color: #e6eaf2;
+}
+/* .slider{
+  width:500px;
+  background: rgba(0,90,50,0.7);
+} */
+
+
+/*
+
+
+HTML5 Canvas - Projecting 3D particles to a 2D canvas.
+from rectangleworld.com
+
+
+
+-- I did not code this, just added the jquery slider -- 
+
+-*/
+body {
+	/* width: 100wh;
+    height: 90vh; */
+    font: 100% Helvetica, sans-serif;
+	color: #fff;
+	background: linear-gradient(-20deg, rgb(230, 94, 53), rgb(202, 65, 118), rgb(55, 153, 189), rgb(47, 199, 163));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 8s ease infinite;
+	-moz-animation: Gradient 8s ease infinite;
+	animation: Gradient 8s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
